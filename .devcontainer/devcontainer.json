@@ -1,0 +1,30 @@
+{
+	"name": "Node Streams",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {},
+		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
+	},
+	
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"github.copilot",
+				"github.copilot-chat",
+				"github.copilot-labs",
+				"eamodio.gitlens",
+				"esbenp.prettier-vscode",
+				"ritwickdey.liveserver",
+				"pkief.material-icon-theme",
+				"firsttris.vscode-jest-runner",
+				"rangav.vscode-thunder-client",
+				"robbowen.synthwave-vscode",
+				"rangav.vscode-thunder-client"
+			]
+		}
+	}
+
+}
